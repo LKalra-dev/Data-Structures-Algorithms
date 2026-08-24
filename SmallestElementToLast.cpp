@@ -32,7 +32,7 @@ int main()
     a[minIndex] = a[n - 1];
     a[n - 1] = temp;
 
-    cout << "After shifting smallest element to the end:\n";
+    cout << "Shifted to the end - \n";
 
     for (int i = 0; i < n; i++)
     {
