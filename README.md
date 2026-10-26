@@ -68,12 +68,13 @@ This repository contains C++ programs developed as part of college coursework in
 - **Time complexity:** O(1) per enqueue and dequeue operation.
 - **Space complexity:** O(n), where n is the queue capacity.
 
-### 10. Merge of Doubly Linked Lists — `doublelist-merge.cpp`
+### 10. Merging Two Sorted Arrays — `doublelist-merge.cpp`
 
-- **Description:** Appears to demonstrate merging doubly linked lists, which maintain both `next` and `prev` pointers.
-- **Concepts:** Doubly linked-list traversal, pointer updates, and list merging.
-- **Time complexity:** O(n + m) for merging two already sorted lists by relinking nodes, where n and m are their respective lengths.
-- **Space complexity:** O(1) auxiliary space when existing nodes are relinked; additional storage may be required by other implementations.
+- **Description:** Merges two sorted arrays into a third array, combining all elements in ascending order. Two pointers traverse the input arrays simultaneously, comparing their current elements and placing the smaller element into the result array. Any remaining elements are then copied into the result.
+- **Concepts:** Array traversal, two-pointer technique, comparison-based merging, and the merge operation used in Merge Sort.
+- **Time complexity:** O(n + m), where `n` and `m` are the sizes of the two input arrays. Each element is processed once.
+- **Space complexity:** O(n + m) for the third array containing all elements from both input arrays.
+
 
 ### 11. Heap Sort — `heapsort.cpp`
 
