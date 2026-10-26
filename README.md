@@ -111,12 +111,12 @@ This repository contains C++ programs developed as part of college coursework in
 - **Time complexity:** O(1) for enqueue and dequeue when both front and rear pointers are maintained correctly.
 - **Space complexity:** O(n).
 
-### 16. Radix Sort Using a Linked List — `radixsort-linkedlist.cpp`
+### 16. Radix Sort Using Arrays — `radixsort-array.cpp`
 
-- **Description:** Appears to implement radix sort using linked lists to group elements by individual digits over multiple passes.
-- **Concepts:** Non-comparison sorting, digit extraction, stable grouping, and linked-list manipulation.
-- **Time complexity:** O(d(n + b)), where d is the number of digit passes and b is the digit base or number of buckets.
-- **Space complexity:** Typically O(n + b), depending on the bucket representation.
+- **Description:** Implements Radix Sort using arrays to sort integers digit by digit, starting from the least significant digit (LSD). A stable sorting procedure is applied at each digit position until all digit places have been processed.
+- **Concepts:** Radix Sort, arrays, digit extraction, stable sorting, and non-comparison-based sorting.
+- **Time complexity:** \(O(d(n+b))\), where `n` is the number of elements, `d` is the maximum number of digits, and `b` is the base (typically 10).
+- **Space complexity:** \(O(n+b)\) for the temporary array and digit-counting storage used by the standard counting-sort-based implementation.
 
 ### 17. Linked-List Stack — `stacks-linked.cpp`
 
